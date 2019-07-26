@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "electron-build": "npm run build && electron-packager . build/randomfox --icon=public/favicon.ico --platform=win32 --arch=x64 --asar --overwrite"
+    "electron-build": "npm run build && electron-packager . randomfox --icon=public/favicon.ico --platform=win32 --arch=x64 --asar --overwrite"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -6,7 +6,8 @@ function createWindow()
     let win = new BrowserWindow({ 
         width: 1600,
         height: 900,
-        autoHideMenuBar: true
+        autoHideMenuBar: true,
+        backgroundColor: "#111111"
     })
     win.loadURL(`file://${path.join(__dirname, '../build/index.html')}`)
 }
